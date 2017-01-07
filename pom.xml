@@ -4,7 +4,8 @@
 
 	<groupId>core</groupId>
 	<artifactId>Single_Title_Validation</artifactId>
-	<version>1.1</version>
+	<!-- <version>1.1</version> -->
+	<version>${build.version}</version>
 	<packaging>jar</packaging>
 
 	<name>Single_Title_Validation</name>
@@ -35,7 +36,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>core.Selenium</mainClass>
+							<mainClass>core.App</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
